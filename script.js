@@ -135,7 +135,7 @@ document.write(`<h2>${birthYear}</h2>`)
 var visitorName = "John Doe"
 var productTitle = "5 T-shirt"
 
-document.write(`<p class = "heading">${visitorName} ordered ${productTitle} (s) on XYZ Clothing store</p>`)
+document.write(`<p><b>${visitorName}</b> ordered <b>${productTitle}</b> (s) on XYZ Clothing store</p>`)
 
             // Chapter Number 03 Close Here 
 
@@ -197,3 +197,53 @@ document.write(`<h1>${add} ${numSum}</h1>`)
 
 // Qno02.Repeat task1 for subtraction, multiplication, division &
 // modulus.
+
+//Addtional Condition
+
+document.write(`<h1>This is this task of Addition , Subtraction , Multiplication , Division , Modulus</h1>`)
+
+
+var add = 50 + 30
+var added = "50 + 30 ="
+ 
+
+var additional = "Your sum value is"
+document.write(`<b>${additional}  ${added} ${add}</b>`)
+
+//Subtraction Condition
+
+var subtract = 50 - 30
+var subValue = "50 - 30 ="
+
+var subtraction = "Your subtract value is"
+document.write(`<br><br><b>${subtraction} ${subValue} ${subtract}</b>`)
+
+
+// Multiplication Condition
+
+var multiply = 50 * 30
+var multiplication = "50 x 50 ="
+
+var multiple = "Your multiplication is"
+document.write(`<br><br><b>${multiple} ${multiplication} ${multiply}</b>`)
+
+
+
+//Divisional Condition
+
+var divide = 50 / 50
+var division = "50 / 50 ="
+
+var Divisional = "Your divide value is"
+document.write(`<br><br><b>${Divisional} ${division} ${divide}</b>`)
+
+
+// Modulas Condition
+
+var modulus = 50 % 20
+
+var ans = "50 % 20 ="
+
+var answer = "Your modulus value is"
+document.write(`<br><br><b>${answer} ${ans} ${modulus}</b>`)
+
